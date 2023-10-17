@@ -1,0 +1,10 @@
+{
+  "stores": {
+    "trustacks": {
+      "type": "gcp-secret-manager",
+      "configuration": {
+        "projectId": "peppy-winter-360415"
+      }
+    }
+  }
+}

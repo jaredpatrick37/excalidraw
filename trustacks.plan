@@ -1,0 +1,1 @@
+{"actions":["argocdSync","containerBuild","containerCopy","eslintRun","packageJsonVersion","npmTest","npmBuild","trivyImage"],"inputs":["ARGOCD_SERVER","ARGOCD_AUTH_TOKEN","CONTAINER_REGISTRY","CONTAINER_REGISTRY_USERNAME","CONTAINER_REGISTRY_PASSWORD"]}

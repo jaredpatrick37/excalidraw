@@ -1,0 +1,27 @@
+{
+  "ARGOCD_AUTH_TOKEN": {
+    "type": "String",
+    "description": "The ArgoCD authentication token"
+  },
+  "ARGOCD_INSECURE": {
+    "type": "Boolean",
+    "description": "Skip server certificate and domain verification",
+    "default": "false"
+  },
+  "ARGOCD_SERVER": {
+    "type": "String",
+    "description": "The ArgoCD server URL"
+  },
+  "CONTAINER_REGISTRY": {
+    "type": "String",
+    "description": "The fully qualified URL of the container registry that will be used for both authentiation and as the destination where application container images will be be pushed."
+  },
+  "CONTAINER_REGISTRY_PASSWORD": {
+    "type": "String",
+    "description": "The container registry password."
+  },
+  "CONTAINER_REGISTRY_USERNAME": {
+    "type": "String",
+    "description": "The container registry username."
+  }
+}
