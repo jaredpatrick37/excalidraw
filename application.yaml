@@ -1,0 +1,12 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: excalidraw
+  namespace: argo-cd
+spec:
+  source:
+    repoURL: https://github.com/jaredpatrick37/excalidraw.git
+    path: helm
+  destination:
+    namespace: excalidraw
+    name: demo
