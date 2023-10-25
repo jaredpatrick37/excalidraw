@@ -8,5 +8,5 @@ spec:
     repoURL: https://github.com/jaredpatrick37/excalidraw.git
     path: helm
   destination:
-    namespace: excalidraw
+    namespace: excalidraw2
     name: demo
